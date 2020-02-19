@@ -9,7 +9,7 @@ export default function Dashboard() {
                 headers: { user_id }
             });
 
-            console.log(response)
+            console.log(response);
         }
 
         loadSpots();
